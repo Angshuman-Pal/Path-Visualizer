@@ -1,0 +1,42 @@
+.icon {
+  transform: translate(0, 5px);
+  margin-left: 8px;
+}
+
+.wall {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(12, 53, 71);
+  outline: 1px solid rgb(61, 57, 57);
+}
+
+.visited {
+  width: 20px;
+  height: 20px;
+  background-color: #fbc3bc;
+  outline: 1px solid rgb(61, 57, 57);
+}
+
+.nonvisited {
+  width: 20px;
+  height: 20px;
+  outline: 1px solid rgb(175, 216, 248);
+  background-color: white;
+}
+
+.path {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 254, 106);
+  outline: 1px solid rgb(61, 57, 57);
+}
+
+.block {
+  transform: translate(0, 5px);
+  margin-left: 10px;
+}
+
+.box {
+  display: inline-block;
+  transform: translate(0, 3px);
+}
